@@ -1,6 +1,6 @@
 :root {
   --mainBrown: #2d1e1f;
-  --mainYellow: rgb(255, 158, 9);
+  --mainYellow: rgb(12, 224, 23);
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
@@ -28,23 +28,18 @@ h6 {
   color: var(--mainYellow);
   font-size: 2rem;
 }
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background: linear-gradient(rgba(12, 224, 23, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
 .about-background {
   min-height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
-  background-position: center;
-  background-size: cover;
 }
 .btn-yellow {
   color: var(--mainYellow);
@@ -56,4 +51,7 @@ h6 {
 }
 .footer {
   background: var(--mainBrown);
+}
+.menu {
+  background: var(--mainGrey);
 }

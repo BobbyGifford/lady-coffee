@@ -13,8 +13,16 @@ const IndexPage = ({ data }) => (
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       title="Lady Coffee"
+      subtitle="Fair trade the right way"
     />
-    <Info />
+    <Info>
+      We care about social values, including housing, education, child labor,
+      health care, worker safety, and women’s issues, among many others. We
+      insist suppliers we buy from care about these issues too. We require that
+      every partner throughout our supply chain has at least one substantive
+      social program in place. This criteria allows us to choose and,
+      ultimately, favor partners that actively share our values.
+    </Info>
     <Products />
     <Contact />
   </Layout>

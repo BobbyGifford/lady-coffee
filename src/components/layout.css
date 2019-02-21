@@ -32,9 +32,9 @@ h6 {
 .about-background {
   min-height: 100vh;
   display: flex;
+  background: rgba(0, 41, 34, 0.5);
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(12, 224, 23, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
